@@ -41,23 +41,59 @@
 <!--[if IE 9]><body class="ie9 lt-ie10"><![endif]-->
 
 <body class="ps-loading">
-    <header class="header header--1" data-sticky="true">
-        <nav class="navigation">
-            <div class="ps-container-fluid">
-                <div class="left"><a class="ps-logo" href="index.html"><img src="images/logo.png" alt=""></a></div>
-                <div class="center">
-                    <ul class="menu">
-                        <li class=""><a href="index.html">Home</a>
-                        </li>
-                        <li><a href="shop-pagination.html">Shop</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                    </ul>
-                </div>
+    <header class="header header--7" data-sticky="true">
+        <div class="ps-container-fluid">
+            <div class="left">
+                <ul class="header__actions">
+                    <li><a class="" href="#"><i class=""></i></a></li>
+                </ul>
             </div>
-        </nav>
+            <div class="center">
+                <nav class="navigation">
+                    <div class="navigation__left">
+                        <ul class="menu">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="shop-pagination.html">Shop</a></li>
+                        </ul>
+                    </div>
+                    <div class="navigation__center"><a class="ps-logo" href="index.html"><img src="images/logo.png" alt=""></a></div>
+                    <div class="navigation__right">
+                        <ul class="menu">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="right">
+                <div class="menu-toggle"><span></span></div>
+                <ul class="header__actions">
+                    <li><a href="#"><i class=""></i></a></li>
+                    <li class=""><a class="" href="#" data-toggle="" aria-haspopup="" aria-expanded="" id=""><i class=""></i><span><i></i></span></a>
+                        <ul class="dropdown-menu" aria-labelledby="shopping-cart" id="shopping-list">
+                            <li><span class="ps-product--shopping-cart"><a class="ps-product__thumbnail" href="product-detail.html"><img src="images/cart/1.jpg" alt=""></a><span class="ps-product__content"><a class="ps-product__title" href="#">T-shirt blue with slogan</a><span class="ps-product__quantity">1 x <span> $5250.00</span></span>
+                                </span><a class="ps-product__remove" href="#"><i class="fa fa-trash"></i></a></span>
+                            </li>
+                            <li><span class="ps-product--shopping-cart"><a class="ps-product__thumbnail" href="product-detail.html"><img src="images/cart/2.jpg" alt=""></a><span class="ps-product__content"><a class="ps-product__title" href="#">T-shirt blue with slogan</a><span class="ps-product__quantity">1 x <span> $5250.00</span></span>
+                                </span><a class="ps-product__remove" href="#"><i class="fa fa-trash"></i></a></span>
+                            </li>
+                            <li class="total">
+                                <p>Total: <span> $5250.00</span></p><a class="ps-btn" href="#">Go to cart</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </header>
     <div class="header header--mobile">
+        <div class="container"><a class="ps-logo" href="index.html"><img src="images/logo.png" alt=""></a>
+            <div class="menu-toggle"><span></span></div>
+            <ul class="header__actions">
+                <li><a class="" href="#"><i class=""></i></a></li>
+                <li><a href="#"><i class=""></i></a></li>
+                <li><a class="" href="#"><i class=""></i><span><i></i></span></a></li>
+            </ul>
             <ul class="menu">
                 <li class=""><a href="index.html">Home</a>
                 </li>
@@ -67,18 +103,6 @@
                     </ul>
                 </li>
             </ul>
-        </div>
-    </div>
-
-    <div class="ps-hero bg--cover" data-background="images/hero/shop-2.jpg">
-        <div class="container">
-            <h2 class="ps-hero__heading">Our Products</h2>
-            <div class="ps-breadcrumb">
-                <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a></li>
-                    <li class="active">Shop</li>
-                </ol>
-            </div>
         </div>
     </div>
     <main class="ps-main">
